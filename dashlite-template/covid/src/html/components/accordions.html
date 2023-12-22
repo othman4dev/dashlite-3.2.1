@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="@@page-discription">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <!-- Page Title  -->
+    <title>Accordions | Coronavirus (COVID-19) Situation Tracker & Dashboard</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="./assets/css/dashlite.css?ver=3.1.2">
+    <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=3.1.2">
+</head>
+
+<body class="nk-body bg-lighter npc-general has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+            <!-- sidebar @s -->
+            <div class="nk-sidebar nk-sidebar-fixed is-light " data-content="sidebarMenu">
+                <div class="nk-sidebar-element nk-sidebar-head">
+                    <div class="nk-sidebar-brand">
+                        <a href="index.html" class="logo-link nk-sidebar-logo">
+                            <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
+                            <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                        </a>
+                    </div>
+                    <div class="nk-menu-trigger me-n2">
+                        <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em class="icon ni ni-arrow-left"></em></a>
+                    </div>
+                </div><!-- .nk-sidebar-element -->
+                <div class="nk-sidebar-element">
+                    <div class="nk-sidebar-content">
+                        <div class="nk-sidebar-menu" data-simplebar>
+                            <ul class="nk-menu">
+                                <li class="nk-menu-item">
+                                    <a href="html/index.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-notify"></em></span>
+                                        <span class="nk-menu-text">Back to Dashboard</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item has-sub">
+                                    <a href="#" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-layers"></em></span>
+                                        <span class="nk-menu-text">Components</span>
+                                    </a>
+                                    <ul class="nk-menu-sub">
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/accordions.html" class="nk-menu-link"><span class="nk-menu-text">Accordions</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/alerts.html" class="nk-menu-link"><span class="nk-menu-text">Alerts</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/badges.html" class="nk-menu-link"><span class="nk-menu-text">Badges</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/buttons.html" class="nk-menu-link"><span class="nk-menu-text">Buttons</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/cards.html" class="nk-menu-link"><span class="nk-menu-text">Cards</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/chartjs.html" class="nk-menu-link"><span class="nk-menu-text">Chart JS</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/colors.html" class="nk-menu-link"><span class="nk-menu-text">Colors</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/form-elements.html" class="nk-menu-link"><span class="nk-menu-text">Form Elements</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/form-layouts.html" class="nk-menu-link"><span class="nk-menu-text">Form Layouts</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/modals.html" class="nk-menu-link"><span class="nk-menu-text">Modals</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/pagination.html" class="nk-menu-link"><span class="nk-menu-text">Pagination</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/progress.html" class="nk-menu-link"><span class="nk-menu-text">Progress</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/table-basic.html" class="nk-menu-link"><span class="nk-menu-text">Tables</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/table-datatable.html" class="nk-menu-link"><span class="nk-menu-text">DataTables</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/tabs.html" class="nk-menu-link"><span class="nk-menu-text">Tabs</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/tooltip.html" class="nk-menu-link"><span class="nk-menu-text">Tooltip</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/typography.html" class="nk-menu-link"><span class="nk-menu-text">Typography</span></a>
+                                        </li>
+                                    </ul><!-- .nk-menu-sub -->
+                                </li><!-- .nk-menu-item -->
+                            </ul><!-- .nk-menu -->
+                        </div><!-- .nk-sidebar-menu -->
+                    </div><!-- .nk-sidebar-content -->
+                </div><!-- .nk-sidebar-element -->
+            </div>
+            <!-- sidebar @e -->
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <div class="nk-header nk-header-fixed is-light">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap">
+                            <div class="nk-menu-trigger d-xl-none ms-n1">
+                                <a href="#" class="nk-nav-toggle nk-quick-nav-icon" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                            </div>
+                            <div class="nk-header-brand d-xl-none">
+                                <a href="index.html" class="logo-link">
+                                    <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
+                                    <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                                </a>
+                            </div><!-- .nk-header-brand -->
+                            <div class="nk-header-news d-none d-xl-block">
+                                <div class="nk-news-list">
+                                    <a class="nk-news-item" href="https://dashlite.themenio.com" target="_blank">
+                                        <div class="nk-news-icon">
+                                            <em class="icon ni ni-card-view"></em>
+                                        </div>
+                                        <div class="nk-news-text">
+                                            <p>Do you know the latest update of DashLite? <span>Check out update here ... ...</span></p>
+                                            <em class="icon ni ni-external"></em>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- .nk-header-news -->
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    <li class="dropdown language-dropdown d-none d-sm-block me-n1">
+                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon" data-bs-toggle="dropdown">
+                                            <div class="user-avatar xs">
+                                                <img src="./images/flags/english-sq.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-s1">
+                                            <ul class="language-list">
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <img src="./images/flags/english.png" alt="" class="language-flag">
+                                                        <span class="language-name">English</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <img src="./images/flags/spanish.png" alt="" class="language-flag">
+                                                        <span class="language-name">Español</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <img src="./images/flags/french.png" alt="" class="language-flag">
+                                                        <span class="language-name">Français</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <img src="./images/flags/turkey.png" alt="" class="language-flag">
+                                                        <span class="language-name">Türkçe</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li><!-- .dropdown -->
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-end dropdown-menu-s1">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>AB</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Abu Bin Ishtiyak</span>
+                                                        <span class="sub-text">info@softnio.com</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                    <li><a href="#"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
+                                                    <li><a href="#"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign out</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li><!-- .dropdown -->
+                                </ul><!-- .nk-quick-nav -->
+                            </div><!-- .nk-header-tools -->
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <div class="components-preview wide-md mx-auto">
+                                    <div class="nk-block-head nk-block-head-lg wide-sm">
+                                        <div class="nk-block-head-content">
+                                            <div class="nk-block-head-sub"><a class="back-to" href="html/components/index.html"><em class="icon ni ni-arrow-left"></em><span>Components</span></a></div>
+                                            <h2 class="nk-block-title fw-normal">Accordions</h2>
+                                            <div class="nk-block-des">
+                                                <p class="lead">Toggle the visibility of content across your project with a few classes and Bootstrap collapse JavaScript plugins. The collapse plugin is used to show &amp; hide content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nk-block nk-block-lg">
+                                        <div class="nk-block-head">
+                                            <div class="nk-block-head-content">
+                                                <h4 class="title nk-block-title">Default Style</h4>
+                                                <p>Using default collapse behavior to create an accordion. To properly achieve the accordion style, be sure to use <code>.accordion</code> as a wrapper.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <div id="accordion" class="accordion">
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head" data-bs-toggle="collapse" data-bs-target="#accordion-item-1">
+                                                            <h6 class="title">What is Dashlite?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse show" id="accordion-item-1" data-bs-parent="#accordion">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-2">
+                                                            <h6 class="title">What are some of the benefits of receiving my bill electronically?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse" id="accordion-item-2" data-bs-parent="#accordion">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-3">
+                                                            <h6 class="title">What is the relationship between Dashlite and payment?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse" id="accordion-item-3" data-bs-parent="#accordion">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-4">
+                                                            <h6 class="title">What are the benefits of using Dashlite?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse" id="accordion-item-4" data-bs-parent="#accordion">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#accordionBase" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="accordionBase">
+&lt;div id=&quot;accordion&quot; class=&quot;accordion&quot;&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;accordion-head&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-1&quot;&gt;
+          &lt;h6 class=&quot;title&quot;&gt;What is Dashlite?&lt;/h6&gt;
+          &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;div class=&quot;accordion-body collapse show&quot; id=&quot;accordion-item-1&quot; data-bs-parent=&quot;#accordion&quot;&gt;
+          &lt;div class=&quot;accordion-inner&quot;&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;accordion-head collapsed&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-2&quot;&gt;
+          &lt;h6 class=&quot;title&quot;&gt;What are some of the benefits of receiving my bill electronically?&lt;/h6&gt;
+          &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;div class=&quot;accordion-body collapse&quot; id=&quot;accordion-item-2&quot; data-bs-parent=&quot;#accordion&quot; &gt;
+          &lt;div class=&quot;accordion-inner&quot;&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;accordion-head collapsed&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-3&quot;&gt;
+          &lt;h6 class=&quot;title&quot;&gt;What is the relationship between Dashlite and payment?&lt;/h6&gt;
+          &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;div class=&quot;accordion-body collapse&quot; id=&quot;accordion-item-3&quot; data-bs-parent=&quot;#accordion&quot; &gt;
+          &lt;div class=&quot;accordion-inner&quot;&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;accordion-head collapsed&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-4&quot;&gt;
+          &lt;h6 class=&quot;title&quot;&gt;What are the benefits of using Dashlite?&lt;/h6&gt;
+          &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;div class=&quot;accordion-body collapse&quot; id=&quot;accordion-item-4&quot; data-bs-parent=&quot;#accordion&quot; &gt;
+          &lt;div class=&quot;accordion-inner&quot;&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;  
+</pre>
+                                        </div><!-- .code-block -->
+                                    </div>
+                                    <div class="nk-block nk-block-lg">
+                                        <div class="nk-block-head">
+                                            <div class="nk-block-head-content">
+                                                <h4 class="title nk-block-title">Accordion Style2</h4>
+                                                <p>Add the class <code>.accordion-s2</code> with <code>.accordion</code> to get this accordion style.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <div id="accordion-1" class="accordion accordion-s2">
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head" data-bs-toggle="collapse" data-bs-target="#accordion-item-1-1">
+                                                            <h6 class="title">What is Dashlite?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse show" id="accordion-item-1-1" data-bs-parent="#accordion-1">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-1-2">
+                                                            <h6 class="title">What are some of the benefits of receiving my bill electronically?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse" id="accordion-item-1-2" data-bs-parent="#accordion-1">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-1-3">
+                                                            <h6 class="title">What is the relationship between Dashlite and payment?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse" id="accordion-item-1-3" data-bs-parent="#accordion-1">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#accordionStyle2" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="accordionStyle2">
+&lt;div id=&quot;accordion-1&quot; class=&quot;accordion accordion-s2&quot;&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;accordion-head&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-1-1&quot;&gt;
+          &lt;h6 class=&quot;title&quot;&gt;What is Dashlite?&lt;/h6&gt;
+          &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;div class=&quot;accordion-body collapse show&quot; id=&quot;accordion-item-1-1&quot; data-bs-parent=&quot;#accordion-1&quot;&gt;
+          &lt;div class=&quot;accordion-inner&quot;&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;accordion-head collapsed&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-1-2&quot;&gt;
+          &lt;h6 class=&quot;title&quot;&gt;What are some of the benefits of receiving my bill electronically?&lt;/h6&gt;
+          &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;div class=&quot;accordion-body collapse&quot; id=&quot;accordion-item-1-2&quot; data-bs-parent=&quot;#accordion-1&quot; &gt;
+          &lt;div class=&quot;accordion-inner&quot;&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;accordion-item&quot;&gt;
+      &lt;a href=&quot;#&quot; class=&quot;accordion-head collapsed&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-1-3&quot;&gt;
+          &lt;h6 class=&quot;title&quot;&gt;What is the relationship between Dashlite and payment?&lt;/h6&gt;
+          &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+      &lt;/a&gt;
+      &lt;div class=&quot;accordion-body collapse&quot; id=&quot;accordion-item-1-3&quot; data-bs-parent=&quot;#accordion-1&quot; &gt;
+          &lt;div class=&quot;accordion-inner&quot;&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+              &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;  
+</pre>
+                                        </div><!-- .code-block -->
+                                    </div>
+                                    <div class="nk-block nk-block-lg">
+                                        <div class="nk-block-head">
+                                            <div class="nk-block-head-content">
+                                                <h4 class="title nk-block-title">Accordion Style3</h4>
+                                                <p>Add the class <code>.accordion-s3</code> with <code>.accordion</code> to get this accordion style.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <div id="accordion-2" class="accordion accordion-s3">
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head" data-bs-toggle="collapse" data-bs-target="#accordion-item-2-1">
+                                                            <h6 class="title">What is Dashlite?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse show" id="accordion-item-2-1" data-bs-parent="#accordion-2">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-2-2">
+                                                            <h6 class="title">What are some of the benefits of receiving my bill electronically?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse" id="accordion-item-2-2" data-bs-parent="#accordion-2">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-2-3">
+                                                            <h6 class="title">What is the relationship between Dashlite and payment?</h6>
+                                                            <span class="accordion-icon"></span>
+                                                        </a>
+                                                        <div class="accordion-body collapse" id="accordion-item-2-3" data-bs-parent="#accordion-2">
+                                                            <div class="accordion-inner">
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#accordionStyle3" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="accordionStyle3">
+&lt;div id=&quot;accordion-2&quot; class=&quot;accordion accordion-s3&quot;&gt;
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;accordion-head&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-2-1&quot;&gt;
+                &lt;h6 class=&quot;title&quot;&gt;What is Dashlite?&lt;/h6&gt;
+                &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+            &lt;/a&gt;
+            &lt;div class=&quot;accordion-body collapse show&quot; id=&quot;accordion-item-2-1&quot; data-bs-parent=&quot;#accordion-2&quot;&gt;
+                &lt;div class=&quot;accordion-inner&quot;&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;accordion-head collapsed&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-2-2&quot;&gt;
+                &lt;h6 class=&quot;title&quot;&gt;What are some of the benefits of receiving my bill electronically?&lt;/h6&gt;
+                &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+            &lt;/a&gt;
+            &lt;div class=&quot;accordion-body collapse&quot; id=&quot;accordion-item-2-2&quot; data-bs-parent=&quot;#accordion-2&quot; &gt;
+              &lt;div class=&quot;accordion-inner&quot;&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;accordion-item&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;accordion-head collapsed&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accordion-item-2-3&quot;&gt;
+                &lt;h6 class=&quot;title&quot;&gt;What is the relationship between Dashlite and payment?&lt;/h6&gt;
+                &lt;span class=&quot;accordion-icon&quot;&gt;&lt;/span&gt;
+            &lt;/a&gt;
+            &lt;div class=&quot;accordion-body collapse&quot; id=&quot;accordion-item-2-3&quot; data-bs-parent=&quot;#accordion-2&quot; &gt;
+                &lt;div class=&quot;accordion-inner&quot;&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+                            <div class="nk-footer-copyright"> &copy; 2022 DashLite. Template by <a href="https://softnio.com" target="_blank">Softnio</a>
+                            </div>
+                            <div class="nk-footer-links">
+                                <ul class="nav nav-sm">
+                                    <li class="nav-item dropup">
+                                        <a href="#" class="dropdown-toggle dropdown-indicator has-indicator nav-link text-base" data-bs-toggle="dropdown" data-offset="0,10"><span>English</span></a>
+                                        <div class="dropdown-menu dropdown-menu-sm dropdown-menu-end">
+                                            <ul class="language-list">
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <span class="language-name">English</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <span class="language-name">Español</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <span class="language-name">Français</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <span class="language-name">Türkçe</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a data-bs-toggle="modal" href="#region" class="nav-link"><em class="icon ni ni-globe"></em><span class="ms-1">Select Region</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+    </div>
+    <!-- app-root @e -->
+    <!-- select region modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="region">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <a href="#" class="close" data-bs-dismiss="modal"><em class="icon ni ni-cross-sm"></em></a>
+                <div class="modal-body modal-body-md">
+                    <h5 class="title mb-4">Select Your Country</h5>
+                    <div class="nk-country-region">
+                        <ul class="country-list text-center gy-2">
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/arg.png" alt="" class="country-flag">
+                                    <span class="country-name">Argentina</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/aus.png" alt="" class="country-flag">
+                                    <span class="country-name">Australia</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/bangladesh.png" alt="" class="country-flag">
+                                    <span class="country-name">Bangladesh</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/canada.png" alt="" class="country-flag">
+                                    <span class="country-name">Canada <small>(English)</small></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/china.png" alt="" class="country-flag">
+                                    <span class="country-name">Centrafricaine</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/china.png" alt="" class="country-flag">
+                                    <span class="country-name">China</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/french.png" alt="" class="country-flag">
+                                    <span class="country-name">France</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/germany.png" alt="" class="country-flag">
+                                    <span class="country-name">Germany</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/iran.png" alt="" class="country-flag">
+                                    <span class="country-name">Iran</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/italy.png" alt="" class="country-flag">
+                                    <span class="country-name">Italy</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/mexico.png" alt="" class="country-flag">
+                                    <span class="country-name">México</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/philipine.png" alt="" class="country-flag">
+                                    <span class="country-name">Philippines</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/portugal.png" alt="" class="country-flag">
+                                    <span class="country-name">Portugal</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/s-africa.png" alt="" class="country-flag">
+                                    <span class="country-name">South Africa</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/spanish.png" alt="" class="country-flag">
+                                    <span class="country-name">Spain</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/switzerland.png" alt="" class="country-flag">
+                                    <span class="country-name">Switzerland</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/uk.png" alt="" class="country-flag">
+                                    <span class="country-name">United Kingdom</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/english.png" alt="" class="country-flag">
+                                    <span class="country-name">United State</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- .modal-content -->
+        </div><!-- .modla-dialog -->
+    </div><!-- .modal -->
+    <!-- JavaScript -->
+    <script src="./assets/js/bundle.js?ver=3.1.2"></script>
+    <script src="./assets/js/scripts.js?ver=3.1.2"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+/// GLOBAL USED WIDGETS
+/////////////////////////////////////
+
+@import "comps/authors";
+@import "comps/reacts";
+@import "comps/profiles";
+@import "comps/pricing";
+@import "comps/members";
+@import "comps/wizard";
+
+@import "comps/tb-tnx";
+@import "comps/tb-odr";
+@import "comps/tb-ftr";
+@import "comps/tb-compact";
+
+@import "tables/base";
+
+@import "wgs/wg1";
+
+@import "wgs/help";
+@import "wgs/cta";
+
+@import "wgs/kyc-form";
+@import "wgs/pricing";
+@import "wgs/products";
+@import "wgs/gallery";
+@import "wgs/misc";
+
+// Load with condition
+@import "wgs/db-analytic";
+@import "wgs/db-invest";

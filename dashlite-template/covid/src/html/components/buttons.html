@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="@@page-discription">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <!-- Page Title  -->
+    <title>Buttons | Coronavirus (COVID-19) Situation Tracker & Dashboard</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="./assets/css/dashlite.css?ver=3.1.2">
+    <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=3.1.2">
+</head>
+
+<body class="nk-body bg-lighter npc-general has-sidebar ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+            <!-- sidebar @s -->
+            <div class="nk-sidebar nk-sidebar-fixed is-light " data-content="sidebarMenu">
+                <div class="nk-sidebar-element nk-sidebar-head">
+                    <div class="nk-sidebar-brand">
+                        <a href="index.html" class="logo-link nk-sidebar-logo">
+                            <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
+                            <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                        </a>
+                    </div>
+                    <div class="nk-menu-trigger me-n2">
+                        <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em class="icon ni ni-arrow-left"></em></a>
+                    </div>
+                </div><!-- .nk-sidebar-element -->
+                <div class="nk-sidebar-element">
+                    <div class="nk-sidebar-content">
+                        <div class="nk-sidebar-menu" data-simplebar>
+                            <ul class="nk-menu">
+                                <li class="nk-menu-item">
+                                    <a href="html/index.html" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-notify"></em></span>
+                                        <span class="nk-menu-text">Back to Dashboard</span>
+                                    </a>
+                                </li><!-- .nk-menu-item -->
+                                <li class="nk-menu-item has-sub">
+                                    <a href="#" class="nk-menu-link">
+                                        <span class="nk-menu-icon"><em class="icon ni ni-layers"></em></span>
+                                        <span class="nk-menu-text">Components</span>
+                                    </a>
+                                    <ul class="nk-menu-sub">
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/accordions.html" class="nk-menu-link"><span class="nk-menu-text">Accordions</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/alerts.html" class="nk-menu-link"><span class="nk-menu-text">Alerts</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/badges.html" class="nk-menu-link"><span class="nk-menu-text">Badges</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/buttons.html" class="nk-menu-link"><span class="nk-menu-text">Buttons</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/cards.html" class="nk-menu-link"><span class="nk-menu-text">Cards</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/chartjs.html" class="nk-menu-link"><span class="nk-menu-text">Chart JS</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/colors.html" class="nk-menu-link"><span class="nk-menu-text">Colors</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/form-elements.html" class="nk-menu-link"><span class="nk-menu-text">Form Elements</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/form-layouts.html" class="nk-menu-link"><span class="nk-menu-text">Form Layouts</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/modals.html" class="nk-menu-link"><span class="nk-menu-text">Modals</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/pagination.html" class="nk-menu-link"><span class="nk-menu-text">Pagination</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/progress.html" class="nk-menu-link"><span class="nk-menu-text">Progress</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/table-basic.html" class="nk-menu-link"><span class="nk-menu-text">Tables</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/table-datatable.html" class="nk-menu-link"><span class="nk-menu-text">DataTables</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/tabs.html" class="nk-menu-link"><span class="nk-menu-text">Tabs</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/tooltip.html" class="nk-menu-link"><span class="nk-menu-text">Tooltip</span></a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/components/typography.html" class="nk-menu-link"><span class="nk-menu-text">Typography</span></a>
+                                        </li>
+                                    </ul><!-- .nk-menu-sub -->
+                                </li><!-- .nk-menu-item -->
+                            </ul><!-- .nk-menu -->
+                        </div><!-- .nk-sidebar-menu -->
+                    </div><!-- .nk-sidebar-content -->
+                </div><!-- .nk-sidebar-element -->
+            </div>
+            <!-- sidebar @e -->
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <div class="nk-header nk-header-fixed is-light">
+                    <div class="container-fluid">
+                        <div class="nk-header-wrap">
+                            <div class="nk-menu-trigger d-xl-none ms-n1">
+                                <a href="#" class="nk-nav-toggle nk-quick-nav-icon" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+                            </div>
+                            <div class="nk-header-brand d-xl-none">
+                                <a href="index.html" class="logo-link">
+                                    <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
+                                    <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                                </a>
+                            </div><!-- .nk-header-brand -->
+                            <div class="nk-header-news d-none d-xl-block">
+                                <div class="nk-news-list">
+                                    <a class="nk-news-item" href="https://dashlite.themenio.com" target="_blank">
+                                        <div class="nk-news-icon">
+                                            <em class="icon ni ni-card-view"></em>
+                                        </div>
+                                        <div class="nk-news-text">
+                                            <p>Do you know the latest update of DashLite? <span>Check out update here ... ...</span></p>
+                                            <em class="icon ni ni-external"></em>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- .nk-header-news -->
+                            <div class="nk-header-tools">
+                                <ul class="nk-quick-nav">
+                                    <li class="dropdown language-dropdown d-none d-sm-block me-n1">
+                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon" data-bs-toggle="dropdown">
+                                            <div class="user-avatar xs">
+                                                <img src="./images/flags/english-sq.png" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end dropdown-menu-s1">
+                                            <ul class="language-list">
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <img src="./images/flags/english.png" alt="" class="language-flag">
+                                                        <span class="language-name">English</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <img src="./images/flags/spanish.png" alt="" class="language-flag">
+                                                        <span class="language-name">Español</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <img src="./images/flags/french.png" alt="" class="language-flag">
+                                                        <span class="language-name">Français</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <img src="./images/flags/turkey.png" alt="" class="language-flag">
+                                                        <span class="language-name">Türkçe</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li><!-- .dropdown -->
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-end dropdown-menu-s1">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>AB</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Abu Bin Ishtiyak</span>
+                                                        <span class="sub-text">info@softnio.com</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
+                                                    <li><a href="#"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
+                                                    <li><a href="#"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign out</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li><!-- .dropdown -->
+                                </ul><!-- .nk-quick-nav -->
+                            </div><!-- .nk-header-tools -->
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container-fluid">
+                        <div class="nk-content-inner">
+                            <div class="nk-content-body">
+                                <div class="components-preview wide-md mx-auto">
+                                    <div class="nk-block-head nk-block-head-lg wide-sm">
+                                        <div class="nk-block-head-content">
+                                            <div class="nk-block-head-sub"><a class="back-to" href="html/components/index.html"><em class="icon ni ni-arrow-left"></em><span>Components</span></a></div>
+                                            <h2 class="nk-block-title fw-normal">Buttons</h2>
+                                            <div class="nk-block-des">
+                                                <p class="lead">Documentation and examples of button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nk-block nk-block-lg">
+                                        <div class="nk-block-head">
+                                            <div class="nk-block-head-content">
+                                                <h5 class="title nk-block-title">Example with Variations</h5>
+                                                <p>Bootstrap includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <ul class="preview-btn-list">
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Primary</span>
+                                                        <a href="#" class="btn btn-primary">Primary</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Secondary</span>
+                                                        <a href="#" class="btn btn-secondary">Secondary</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Success</span>
+                                                        <a href="#" class="btn btn-success">Success</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Danger</span>
+                                                        <a href="#" class="btn btn-danger">Danger</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Warning</span>
+                                                        <a href="#" class="btn btn-warning">Warning</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Info</span>
+                                                        <a href="#" class="btn btn-info">Info</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Light</span>
+                                                        <a href="#" class="btn btn-light">Light</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Dark</span>
+                                                        <a href="#" class="btn btn-dark">Dark</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#btnCode1" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="btnCode1">
+&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/a&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <ul class="preview-btn-list">
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Primary</span>
+                                                        <a href="#" class="btn btn-dim btn-primary">Primary</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Secondary</span>
+                                                        <a href="#" class="btn btn-dim btn-secondary">Secondary</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Success</span>
+                                                        <a href="#" class="btn btn-dim btn-success">Success</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Danger</span>
+                                                        <a href="#" class="btn btn-dim btn-danger">Danger</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Warning</span>
+                                                        <a href="#" class="btn btn-dim btn-warning">Warning</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Info</span>
+                                                        <a href="#" class="btn btn-dim btn-info">Info</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Light</span>
+                                                        <a href="#" class="btn btn-dim btn-light">Light</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Dark</span>
+                                                        <a href="#" class="btn btn-dim btn-dark">Dark</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#btnCode2" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="btnCode2">
+&lt;a href=&quot;#&quot; class=&quot;btn btn-dim btn-primary&quot;&gt;Primary&lt;/a&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <ul class="preview-btn-list ">
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Primary</span>
+                                                        <a href="#" class="btn btn-outline-primary">Primary</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Secondary</span>
+                                                        <a href="#" class="btn btn-outline-secondary">Secondary</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Success</span>
+                                                        <a href="#" class="btn btn-outline-success">Success</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Danger</span>
+                                                        <a href="#" class="btn btn-outline-danger">Danger</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Warning</span>
+                                                        <a href="#" class="btn btn-outline-warning">Warning</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Info</span>
+                                                        <a href="#" class="btn btn-outline-info">Info</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Light</span>
+                                                        <a href="#" class="btn btn-outline-light">Light</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Dark</span>
+                                                        <a href="#" class="btn btn-outline-dark">Dark</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#btnCode3" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="btnCode3">
+&lt;a href=&quot;#&quot; class=&quot;btn btn-outline-primary&quot;&gt;Primary&lt;/a&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <ul class="preview-btn-list">
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Primary</span>
+                                                        <a href="#" class="btn btn-dim btn-outline-primary">Primary</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Secondary</span>
+                                                        <a href="#" class="btn btn-dim btn-outline-secondary">Secondary</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Success</span>
+                                                        <a href="#" class="btn btn-dim btn-outline-success">Success</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Danger</span>
+                                                        <a href="#" class="btn btn-dim btn-outline-danger">Danger</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Warning</span>
+                                                        <a href="#" class="btn btn-dim btn-outline-warning">Warning</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Info</span>
+                                                        <a href="#" class="btn btn-dim btn-outline-info">Info</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Light</span>
+                                                        <a href="#" class="btn btn-dim btn-outline-light">Light</a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Dark</span>
+                                                        <a href="#" class="btn btn-dim btn-outline-dark">Dark</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#btnCode4" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="btnCode4">
+&lt;a href=&quot;#&quot; class=&quot;btn btn-dim btn-outline-primary&quot;&gt;Primary&lt;/a&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <ul class="row g-gs">
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Button Extra Large</span>
+                                                        <a href="#" class="btn btn-xl btn-primary">Button Large</a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Button Large</span>
+                                                        <a href="#" class="btn btn-lg btn-primary">Button Regular</a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Button Regular</span>
+                                                        <a href="#" class="btn btn-primary">Button Regular</a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Button Small</span>
+                                                        <a href="#" class="btn btn-sm btn-primary">Button Small</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#btnCode5" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="btnCode5">
+&lt;a href=&quot;#&quot; class=&quot;btn btn-xl btn-primary&quot;&gt;Button Large&lt;/a&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <ul class="row g-gs">
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Button Extra Large</span>
+                                                        <a href="#" class="btn btn-round btn-xl btn-primary">Button Large</a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Button Large</span>
+                                                        <a href="#" class="btn btn-round btn-lg btn-primary">Button Regular</a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Button Regular</span>
+                                                        <a href="#" class="btn btn-round btn-primary">Button Regular</a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Button Small</span>
+                                                        <a href="#" class="btn btn-round btn-sm btn-primary">Button Small</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#btnCode6" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="btnCode6">
+&lt;a href=&quot;#&quot; class=&quot;btn btn-xl btn-primary&quot;&gt;Button Large&lt;/a&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <ul class="row g-gs">
+                                                    <li class=" col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Left Icon</span>
+                                                        <a href="#" class="btn btn-primary"><em class="icon ni ni-setting"></em><span>Button Left Icon</span> </a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Right Icon</span>
+                                                        <a href="#" class="btn btn-primary"><span>Button Right Icon</span><em class="icon ni ni-setting"></em></a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Action Button</span>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn btn-primary" data-bs-toggle="dropdown"><span>Action Button</span><em class="icon ni ni-chevron-down"></em></a>
+                                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-auto mt-1">
+                                                                <ul class="link-list-plain">
+                                                                    <li><a href="#">Link List Item</a></li>
+                                                                    <li><a href="#">Link List Item</a></li>
+                                                                    <li><a href="#">Link List Item</a></li>
+                                                                    <li><a href="#">Link List Item</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#btnCode7" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="btnCode7">
+&lt;a href=&quot;#&quot; class=&quot;btn btn-round btn-lg btn-primary&quot;&gt;Button Large&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-round btn-primary&quot;&gt;Button Regular&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-round btn-primary&quot;&gt;&lt;em class=&quot;icon ni ni-setting&quot;&gt;&lt;/em&gt;&lt;span&gt;Button Regular&lt;/span&gt; &lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-round btn-primary&quot;&gt;&lt;span&gt;Button Regular&lt;/span&gt;&lt;em class=&quot;icon ni ni-chevron-down&quot;&gt;&lt;/em&gt;&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-round btn-primary btn-action&quot;&gt;&lt;span&gt;Button Regular&lt;/span&gt;&lt;em class=&quot;icon ni ni-chevron-down&quot;&gt;&lt;/em&gt;&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-round btn-sm btn-primary&quot;&gt;Button Small&lt;/a&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <ul class="row g-gs">
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Left Icon</span>
+                                                        <a href="#" class="btn btn-round btn-primary"><em class="icon ni ni-setting"></em><span>Button Left Icon</span> </a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Right Icon</span>
+                                                        <a href="#" class="btn btn-round btn-primary"><span>Button Right Icon</span><em class="icon ni ni-setting"></em></a>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Action Button</span>
+                                                        <div class="dropdown">
+                                                            <a href="#" class="btn btn-round btn-primary" data-bs-toggle="dropdown"><span>Action Button</span><em class="icon ni ni-chevron-down"></em></a>
+                                                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-sm mt-1">
+                                                                <ul class="link-list-plain">
+                                                                    <li><a href="#">Link List Item</a></li>
+                                                                    <li><a href="#">Link List Item</a></li>
+                                                                    <li><a href="#">Link List Item</a></li>
+                                                                    <li><a href="#">Link List Item</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-sm-6 col-lg-3">
+                                                        <span class="preview-title overline-title">Icon on Right</span>
+                                                        <a href="#" class="btn btn-wider btn-primary"><span>Action Button</span><em class="icon ni ni-arrow-right"></em></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#btnCode8" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="btnCode8">
+&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;&lt;em class=&quot;icon ni ni-setting&quot;&gt;&lt;/em&gt;&lt;span&gt;Button Regular&lt;/span&gt; &lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;&lt;span&gt;Button Regular&lt;/span&gt;&lt;em class=&quot;icon ni ni-chevron-down&quot;&gt;&lt;/em&gt;&lt;/a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-primary btn-action&quot;&gt;&lt;span&gt;Button Regular&lt;/span&gt;&lt;em class=&quot;icon ni ni-chevron-down&quot;&gt;&lt;/em&gt;&lt;/a&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                        <div class="card card-bordered card-preview">
+                                            <div class="card-inner">
+                                                <ul class="preview-btn-list preview-btn-list-3x text-center">
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">lg</span>
+                                                        <a href="#" class="btn btn-icon btn-lg btn-primary"><em class="icon ni ni-play"></em></a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Rg</span>
+                                                        <a href="#" class="btn btn-icon btn-primary"><em class="icon ni ni-play"></em></a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Sm</span>
+                                                        <a href="#" class="btn btn-icon btn-sm btn-primary"><em class="icon ni ni-play"></em></a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">lg</span>
+                                                        <a href="#" class="btn btn-round btn-icon btn-lg btn-primary"><em class="icon ni ni-play"></em></a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Rg</span>
+                                                        <a href="#" class="btn btn-round btn-icon btn-primary"><em class="icon ni ni-play"></em></a>
+                                                    </li>
+                                                    <li class="preview-btn-item">
+                                                        <span class="preview-title overline-title">Sm</span>
+                                                        <a href="#" class="btn btn-round btn-icon btn-sm btn-primary"><em class="icon ni ni-play"></em></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .card-preview -->
+                                        <div class="code-block">
+                                            <h6 class="overline-title title">Code Example</h6>
+                                            <button class="btn btn-sm clipboard-init" title="Copy to clipboard" data-clipboard-target="#btnCode9" data-clip-success="Copied" data-clip-text="Copy"><span class="clipboard-text">Copy</span></button>
+                                            <pre class="prettyprint lang-html" id="btnCode9">
+&lt;a href=&quot;#&quot; class=&quot;btn btn-icon btn-lg btn-primary&quot;&gt;&lt;em class=&quot;icon ni ni-play&quot;&gt;&lt;/em&gt;&lt;/a&gt;
+</pre>
+                                        </div><!-- .code-block -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content @e -->
+                <!-- footer @s -->
+                <div class="nk-footer">
+                    <div class="container-fluid">
+                        <div class="nk-footer-wrap">
+                            <div class="nk-footer-copyright"> &copy; 2022 DashLite. Template by <a href="https://softnio.com" target="_blank">Softnio</a>
+                            </div>
+                            <div class="nk-footer-links">
+                                <ul class="nav nav-sm">
+                                    <li class="nav-item dropup">
+                                        <a href="#" class="dropdown-toggle dropdown-indicator has-indicator nav-link text-base" data-bs-toggle="dropdown" data-offset="0,10"><span>English</span></a>
+                                        <div class="dropdown-menu dropdown-menu-sm dropdown-menu-end">
+                                            <ul class="language-list">
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <span class="language-name">English</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <span class="language-name">Español</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <span class="language-name">Français</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="language-item">
+                                                        <span class="language-name">Türkçe</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a data-bs-toggle="modal" href="#region" class="nav-link"><em class="icon ni ni-globe"></em><span class="ms-1">Select Region</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+    </div>
+    <!-- app-root @e -->
+    <!-- select region modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="region">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <a href="#" class="close" data-bs-dismiss="modal"><em class="icon ni ni-cross-sm"></em></a>
+                <div class="modal-body modal-body-md">
+                    <h5 class="title mb-4">Select Your Country</h5>
+                    <div class="nk-country-region">
+                        <ul class="country-list text-center gy-2">
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/arg.png" alt="" class="country-flag">
+                                    <span class="country-name">Argentina</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/aus.png" alt="" class="country-flag">
+                                    <span class="country-name">Australia</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/bangladesh.png" alt="" class="country-flag">
+                                    <span class="country-name">Bangladesh</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/canada.png" alt="" class="country-flag">
+                                    <span class="country-name">Canada <small>(English)</small></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/china.png" alt="" class="country-flag">
+                                    <span class="country-name">Centrafricaine</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/china.png" alt="" class="country-flag">
+                                    <span class="country-name">China</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/french.png" alt="" class="country-flag">
+                                    <span class="country-name">France</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/germany.png" alt="" class="country-flag">
+                                    <span class="country-name">Germany</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/iran.png" alt="" class="country-flag">
+                                    <span class="country-name">Iran</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/italy.png" alt="" class="country-flag">
+                                    <span class="country-name">Italy</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/mexico.png" alt="" class="country-flag">
+                                    <span class="country-name">México</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/philipine.png" alt="" class="country-flag">
+                                    <span class="country-name">Philippines</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/portugal.png" alt="" class="country-flag">
+                                    <span class="country-name">Portugal</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/s-africa.png" alt="" class="country-flag">
+                                    <span class="country-name">South Africa</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/spanish.png" alt="" class="country-flag">
+                                    <span class="country-name">Spain</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/switzerland.png" alt="" class="country-flag">
+                                    <span class="country-name">Switzerland</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/uk.png" alt="" class="country-flag">
+                                    <span class="country-name">United Kingdom</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="country-item">
+                                    <img src="./images/flags/english.png" alt="" class="country-flag">
+                                    <span class="country-name">United State</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- .modal-content -->
+        </div><!-- .modla-dialog -->
+    </div><!-- .modal -->
+    <!-- JavaScript -->
+    <script src="./assets/js/bundle.js?ver=3.1.2"></script>
+    <script src="./assets/js/scripts.js?ver=3.1.2"></script>
+</body>
+
+</html>

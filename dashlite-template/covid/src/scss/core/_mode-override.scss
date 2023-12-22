@@ -1,0 +1,22 @@
+//// BODY STYLE OVERRIDE 
+////////////////////////////////
+.nk-body{
+    &.ui-clean{
+        background:$white !important;
+    }
+    &.ui-softy, &.ui-shady{
+        background: $lighter !important;
+    }
+}
+
+.ui-rounder{
+    .card,.ratio{
+        border-radius: $border-radius-xxl;
+    }
+}
+// 
+.table .table-light th {
+    color: $base-color !important;
+    background-color: $lighter;
+    border: $light-300;
+}

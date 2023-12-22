@@ -1,0 +1,30 @@
+///////////////////////////////////////////////////
+///        INCLUDED THIRD-PARTY VENDORS         ///
+///////////////////////////////////////////////////
+
+// Include NioIcon 
+@import "nioicon/nioicon";
+
+// Include Prettify 
+@import "prettify";
+
+// Include Select2 
+@import "select2/core.scss";
+
+// Include Simplebar
+@import "simplebar";
+.simplebar-scroll-content {
+	@extend .simplebar-content-wrapper;
+}
+
+// Include datepicker
+@import "datepicker/bootstrap-datepicker";
+
+// Include time
+@import "timepicker/jquery.timepicker";
+
+// Include DataTable
+@import "datatable/datatable";
+
+// Include JQVmap //@i-v120
+@import "jqvmap";
